@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="CarLoan">
+    <classes>
+      <class name="requirement1.CarLoanCalculator"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="HomeLoanEmi">
+    <classes>
+      <class name="requirement2.webpageDriver"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="EMICalculatorPageValidation">
+    <classes>
+      <class name="requirement3.EMICalculator"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

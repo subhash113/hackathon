@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HomeLoanEmi(failed)">
+    <classes>
+      <class name="requirement2.webpageDriver">
+        <methods>
+          <include name="insertValueToWebsite"/>
+        </methods>
+      </class> <!-- requirement2.webpageDriver -->
+    </classes>
+  </test> <!-- HomeLoanEmi(failed) -->
+</suite> <!-- Failed suite [Suite] -->

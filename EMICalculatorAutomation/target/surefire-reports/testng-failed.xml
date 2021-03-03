@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="HomeLoanEmi(failed)" verbose="0">
+    <classes>
+      <class name="requirement2.webpageDriver">
+        <methods>
+          <include name="writeExcel"/>
+          <include name="createWebDriver"/>
+          <include name="closeDriver"/>
+          <include name="navigateUrl"/>
+          <include name="navigateToHomeLoanPage"/>
+          <include name="insertValueToWebsite"/>
+        </methods>
+      </class> <!-- requirement2.webpageDriver -->
+    </classes>
+  </test> <!-- HomeLoanEmi(failed) -->
+  <test thread-count="5" name="EMICalculatorPageValidation(failed)" verbose="0">
+    <classes>
+      <class name="requirement3.EMICalculator">
+        <methods>
+          <include name="LoanAmountCalculator"/>
+          <include name="LoanTenureCalculator"/>
+          <include name="ChangeOfScale2"/>
+          <include name="LoanCalculator"/>
+        </methods>
+      </class> <!-- requirement3.EMICalculator -->
+    </classes>
+  </test> <!-- EMICalculatorPageValidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

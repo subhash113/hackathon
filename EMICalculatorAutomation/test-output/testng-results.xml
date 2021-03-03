@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-24T19:32:52Z" name="Suite" finished-at="2021-02-24T19:34:33Z" duration-ms="100905">
+    <groups>
+    </groups>
+    <test started-at="2021-02-24T19:32:52Z" name="CarLoan" finished-at="2021-02-24T19:33:15Z" duration-ms="22764">
+      <class name="requirement1.CarLoanCalculator">
+        <test-method signature="getPrerequisite()[pri:1, instance:requirement1.CarLoanCalculator@3c77d488]" started-at="2021-02-24T19:32:52Z" name="getPrerequisite" finished-at="2021-02-24T19:32:52Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPrerequisite -->
+        <test-method signature="createWebDriver()[pri:2, instance:requirement1.CarLoanCalculator@3c77d488]" started-at="2021-02-24T19:32:52Z" name="createWebDriver" finished-at="2021-02-24T19:32:59Z" duration-ms="6666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method signature="navigateUrl()[pri:3, instance:requirement1.CarLoanCalculator@3c77d488]" started-at="2021-02-24T19:32:59Z" name="navigateUrl" finished-at="2021-02-24T19:33:12Z" duration-ms="12776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateUrl -->
+        <test-method signature="enterData()[pri:4, instance:requirement1.CarLoanCalculator@3c77d488]" started-at="2021-02-24T19:33:12Z" name="enterData" finished-at="2021-02-24T19:33:14Z" duration-ms="1931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterData -->
+        <test-method signature="retriveOutput()[pri:5, instance:requirement1.CarLoanCalculator@3c77d488]" started-at="2021-02-24T19:33:14Z" name="retriveOutput" finished-at="2021-02-24T19:33:14Z" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retriveOutput -->
+        <test-method signature="closeDriver()[pri:6, instance:requirement1.CarLoanCalculator@3c77d488]" started-at="2021-02-24T19:33:14Z" name="closeDriver" finished-at="2021-02-24T19:33:15Z" duration-ms="1052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- requirement1.CarLoanCalculator -->
+    </test> <!-- CarLoan -->
+    <test started-at="2021-02-24T19:33:15Z" name="HomeLoanEmi" finished-at="2021-02-24T19:33:50Z" duration-ms="34428">
+      <class name="requirement2.webpageDriver">
+        <test-method signature="getPrerequisite()[pri:1, instance:requirement2.webpageDriver@7ef82753]" started-at="2021-02-24T19:33:15Z" name="getPrerequisite" finished-at="2021-02-24T19:33:15Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPrerequisite -->
+        <test-method signature="createWebDriver()[pri:2, instance:requirement2.webpageDriver@7ef82753]" started-at="2021-02-24T19:33:15Z" name="createWebDriver" finished-at="2021-02-24T19:33:20Z" duration-ms="4188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method signature="navigateUrl()[pri:3, instance:requirement2.webpageDriver@7ef82753]" started-at="2021-02-24T19:33:20Z" name="navigateUrl" finished-at="2021-02-24T19:33:27Z" duration-ms="7705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateUrl -->
+        <test-method signature="navigateToHomeLoanPage()[pri:4, instance:requirement2.webpageDriver@7ef82753]" started-at="2021-02-24T19:33:27Z" name="navigateToHomeLoanPage" finished-at="2021-02-24T19:33:31Z" duration-ms="3907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomeLoanPage -->
+        <test-method signature="readExcelSheet()[pri:5, instance:requirement2.webpageDriver@7ef82753]" started-at="2021-02-24T19:33:31Z" name="readExcelSheet" finished-at="2021-02-24T19:33:33Z" duration-ms="1755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcelSheet -->
+        <test-method signature="insertValueToWebsite()[pri:6, instance:requirement2.webpageDriver@7ef82753]" started-at="2021-02-24T19:33:33Z" name="insertValueToWebsite" finished-at="2021-02-24T19:33:41Z" duration-ms="7971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertValueToWebsite -->
+        <test-method signature="writeExcel()[pri:7, instance:requirement2.webpageDriver@7ef82753]" started-at="2021-02-24T19:33:41Z" name="writeExcel" finished-at="2021-02-24T19:33:50Z" duration-ms="8548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExcel -->
+        <test-method signature="closeDriver()[pri:8, instance:requirement2.webpageDriver@7ef82753]" started-at="2021-02-24T19:33:50Z" name="closeDriver" finished-at="2021-02-24T19:33:50Z" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- requirement2.webpageDriver -->
+    </test> <!-- HomeLoanEmi -->
+    <test started-at="2021-02-24T19:33:50Z" name="EMICalculatorPageValidation" finished-at="2021-02-24T19:34:33Z" duration-ms="43390">
+      <class name="requirement3.EMICalculator">
+        <test-method signature="loadDriver()[pri:1, instance:requirement3.EMICalculator@6bbe85a8]" started-at="2021-02-24T19:33:50Z" name="loadDriver" finished-at="2021-02-24T19:33:59Z" duration-ms="8695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadDriver -->
+        <test-method signature="getURL()[pri:2, instance:requirement3.EMICalculator@6bbe85a8]" started-at="2021-02-24T19:33:59Z" name="getURL" finished-at="2021-02-24T19:34:04Z" duration-ms="5405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method signature="LoanCalculator()[pri:3, instance:requirement3.EMICalculator@6bbe85a8]" started-at="2021-02-24T19:34:04Z" name="LoanCalculator" finished-at="2021-02-24T19:34:19Z" duration-ms="14597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanCalculator -->
+        <test-method signature="ChangeOfScale()[pri:4, instance:requirement3.EMICalculator@6bbe85a8]" started-at="2021-02-24T19:34:19Z" name="ChangeOfScale" finished-at="2021-02-24T19:34:19Z" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeOfScale -->
+        <test-method signature="takeScreenshot()[pri:5, instance:requirement3.EMICalculator@6bbe85a8]" started-at="2021-02-24T19:34:19Z" name="takeScreenshot" finished-at="2021-02-24T19:34:19Z" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="LoanAmountCalculator()[pri:6, instance:requirement3.EMICalculator@6bbe85a8]" started-at="2021-02-24T19:34:19Z" name="LoanAmountCalculator" finished-at="2021-02-24T19:34:25Z" duration-ms="6114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanAmountCalculator -->
+        <test-method signature="ChangeOfScale2()[pri:7, instance:requirement3.EMICalculator@6bbe85a8]" started-at="2021-02-24T19:34:25Z" name="ChangeOfScale2" finished-at="2021-02-24T19:34:26Z" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeOfScale2 -->
+        <test-method signature="takeScreenshot1()[pri:7, instance:requirement3.EMICalculator@6bbe85a8]" started-at="2021-02-24T19:34:26Z" name="takeScreenshot1" finished-at="2021-02-24T19:34:27Z" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot1 -->
+        <test-method signature="LoanTenureCalculator()[pri:8, instance:requirement3.EMICalculator@6bbe85a8]" started-at="2021-02-24T19:34:27Z" name="LoanTenureCalculator" finished-at="2021-02-24T19:34:33Z" duration-ms="6275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanTenureCalculator -->
+        <test-method signature="takeScreenshot3()[pri:9, instance:requirement3.EMICalculator@6bbe85a8]" started-at="2021-02-24T19:34:33Z" name="takeScreenshot3" finished-at="2021-02-24T19:34:33Z" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot3 -->
+        <test-method signature="quitDriver()[pri:10, instance:requirement3.EMICalculator@6bbe85a8]" started-at="2021-02-24T19:34:33Z" name="quitDriver" finished-at="2021-02-24T19:34:33Z" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- requirement3.EMICalculator -->
+    </test> <!-- EMICalculatorPageValidation -->
+  </suite> <!-- Suite -->
+</testng-results>
